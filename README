@@ -1,12 +1,42 @@
-# Math-Physics
 我们做一个自由、开源的初等数学物理软件吧，以做图为主！
 
 平面几何作图、立体几何作图、解析几何画函数图像、导函数....
 
 物体受力分析、电路图....
 
-
 做一个画图的软件很难，电脑画直线就很好多种算法，贝塞尔曲线.... 计算机图形学
 
-
 如果成功了，我们可能会改变数学和物理的教学课堂。
+
+
+
+我们只做Windows版本，用llvm编译器，使用C++11标准范围内的语言特性开发。C++语言过于庞大、复杂，我们尽量避免其中的复杂特性，尽量使用其中容易理解的、常用、不会导致混乱的特性。标准库是避免不了的，难点在于，作图需要哪些图形库呢？
+
+
+相关软件：
+
+llvm编译器：
+https://llvm.org/builds/
+
+
+notepad++编辑器：
+https://notepad-plus-plus.org/
+
+
+用git管理代码：
+
+git for windows镜像下载：
+https://github.com/waylau/git-for-win
+
+  git config --global user.email "zhangxp147@qq.com"
+  git config --global user.name "zhangyun007"
+  
+  
+进入项目根目录下：
+git add *
+git commit -a
+git push
+
+
+C:\Windows\System32\drivers\etc\hosts文件，修改后能连上大部分国外网站：
+https://raw.githubusercontent.com/racaljk/hosts/master/hosts
