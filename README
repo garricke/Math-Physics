@@ -27,8 +27,10 @@ notepad++编辑器：https://notepad-plus-plus.org/
 git for windows镜像下载：
 https://github.com/waylau/git-for-win
 
-  git config --global user.email "zhangxp147@qq.com"
-  git config --global user.name "zhangyun007"
+进入cmd中，运行：
+git clone https://github.com/zhangyun007/Math-Physics.git
+git config --global user.email "zhangxp147@qq.com"
+git config --global user.name "zhangyun007"
   
   
 进入项目根目录下：
