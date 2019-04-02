@@ -32,11 +32,11 @@ git clone https://github.com/zhangyun007/Math-Physics.git
 git config --global user.email "zhangxp147@qq.com"
 git config --global user.name "zhangyun007"
   
-  
-进入项目根目录下：
+修改（增、删、改）文件后，进入项目根目录下运行：
 git add *
 git commit -a
 git push
+提交您的修改。
 
 
 C:\Windows\System32\drivers\etc\hosts文件，修改后能连上大部分国外网站：
