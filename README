@@ -8,11 +8,14 @@
 
 
 
+
+
 相关软件：
 
 
 Visual Studio C++ Community 2019:
 https://visualstudio.microsoft.com/zh-hans/vs/features/cplusplus/
+下载安装C++相关的开发软件，进入Developer Command Prompt for VS 2019命令行下，进入Math-physics目录下，运行nmake -f test.mak test.exe生成可执行文件，运行nmake -f test.mak clean清除生成的文件。
 
 
 notepad++编辑器：https://notepad-plus-plus.org/
@@ -34,6 +37,8 @@ git add *
 git commit -a
 git push
 提交您的修改。
+
+
 
 
 C:\Windows\System32\drivers\etc\hosts文件，修改后能连上大部分国外网站：
